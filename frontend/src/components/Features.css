@@ -1,0 +1,82 @@
+.features {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.features h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+
+.features-intro {
+  margin-bottom: 2rem;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.app.dark .features-intro {
+  color: #aaa;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+}
+
+.feature-card {
+  padding: 2rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.app.light .feature-card {
+  background: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.app.light .feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(102, 126, 234, 0.2);
+  border-color: #667eea;
+}
+
+.app.dark .feature-card {
+  background: #2d2d2d;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.app.dark .feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.feature-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.75rem;
+  font-weight: 600;
+}
+
+.feature-description {
+  line-height: 1.6;
+  color: #666;
+  font-size: 0.95rem;
+}
+
+.app.dark .feature-description {
+  color: #aaa;
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
+

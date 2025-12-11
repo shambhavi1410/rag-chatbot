@@ -1,0 +1,44 @@
+.language-selector {
+  position: relative;
+}
+
+.language-select {
+  padding: 0.5rem 1rem;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  background: transparent;
+  color: #667eea;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23667eea' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 0.75rem center;
+  padding-right: 2.5rem;
+}
+
+.app.dark .language-select {
+  border-color: #fff;
+  color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23fff' d='M6 9L1 4h10z'/%3E%3C/svg%3E");
+}
+
+.language-select:hover {
+  background-color: rgba(102, 126, 234, 0.1);
+}
+
+.app.dark .language-select:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.language-select:focus {
+  outline: none;
+  border-color: #764ba2;
+}
+
+.app.dark .language-select:focus {
+  border-color: #fff;
+}
+
