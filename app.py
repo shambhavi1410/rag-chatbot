@@ -1,9 +1,8 @@
 import streamlit as st
 
-st.set_page_config(page_title="My First App")
+st.title("My Streamlit App 🚀")
+st.write("Updated from GitHub!")
 
-st.title("Hello 👋")
-st.write("My website is now running on Streamlit!")
 
 name = st.text_input("Enter your name")
 if name:
