@@ -1,0 +1,50 @@
+# -----------------------------
+# FastAPI
+# -----------------------------
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+pydantic==2.9.2
+
+# -----------------------------
+# LangChain (Compatible Versions)
+# -----------------------------
+langchain==0.1.20
+langchain-community==0.0.38
+langchain-core==0.1.53
+langchain-text-splitters==0.0.2
+langsmith==0.1.147
+
+# -----------------------------
+# Vector Database
+# -----------------------------
+chromadb==0.5.3
+
+# -----------------------------
+# Embeddings
+# -----------------------------
+sentence-transformers==2.7.0
+transformers==4.41.2
+huggingface-hub==0.23.4
+torch
+
+# -----------------------------
+# Ollama
+# -----------------------------
+ollama==0.2.1
+
+# -----------------------------
+# Document Processing
+# -----------------------------
+PyPDF2==3.0.1
+python-docx==1.1.2
+python-pptx==1.0.2
+Pillow==10.4.0
+pytesseract==0.3.13
+
+# -----------------------------
+# Utilities
+# -----------------------------
+numpy<2
+requests==2.32.3
+aiofiles==24.1.0
